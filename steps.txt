@@ -1,0 +1,20 @@
+-create a folder on local repository and a repository on GitHub.
+
+
+-$ git init
+
+
+-$ git config --global user.email "aqib.qureshi@neosoftmail.com"
+-$ git config --global user.name "aqibqureshi"
+
+-$ git remote add origin https://github.com/AqibQureshi5895/git-assgn-1.git 
+
+-$ notepad myself.txt
+-$ git add .
+-$ git commit -m "Added File.txt"
+-$ git pull https://github.com/sachinpatil101/hw.git
+-$ notepad participants.md
+-$ git status
+-$ git add .
+-$ git commit -m "added my name to participants.md"
+-$ git push -u origin master
